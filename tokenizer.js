@@ -4,10 +4,12 @@ function analyze(data) {
 }
 
 
-function get_token(data){
-
-  
-
+function get_token(data, index = 0){
+  //test
+  let str = "1 <= 2;";
+  let pattern = /[0-9]|;|<=|>=|!=|==|>|<|*|^/ ; 
+  let n = str.search(pattern);
+  console.log(n);
 }
 
 /**
